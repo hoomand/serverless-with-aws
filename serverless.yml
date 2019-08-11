@@ -14,10 +14,7 @@ functions:
   api:
     handler: src/api/api.handler
     events:
-      - http:
-        path: /api
-        method: GET
-        cors: true
+      - http: GET /api
   todos:
     handler: src/api/todos.handler
   todo:
