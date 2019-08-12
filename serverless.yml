@@ -3,8 +3,8 @@ service: serverless
 provider:
   name: aws
   runtime: nodejs8.10
-  # profile: femasters
-  region: us-west-1
+  profile: fem
+  region: us-west-2
   stage: dev
 
 plugins:
